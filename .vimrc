@@ -47,11 +47,12 @@ filetype plugin indent on    " required
 " enter the current millenium
 colorscheme badwolf	" awesome colorscheme
 syntax enable		" enable syntax processing
-set tabstop=4		" number of visual spaces per TAB
+set tabstop=2		" number of visual spaces per TAB
 set number		" show line numbers
 set showcmd		" show command in bottom bar
 filetype plugin indent on	" load filetype-specific indent files like ~/.vin/indent/python.vim
 set wildmenu		" visual autocomplete form command menu
+set hlsearch		" highlight search results
 
 """ SYSTEM CLIPBOARD COPY & PASTE SUPPORT
 set pastetoggle=<F2> "F2 before pasting tp preserve indentation
