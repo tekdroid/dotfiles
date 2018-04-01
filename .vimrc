@@ -54,6 +54,13 @@ filetype plugin indent on	" load filetype-specific indent files like ~/.vin/inde
 set wildmenu		" visual autocomplete form command menu
 set hlsearch		" highlight search results
 
+""" ColorColumn Settings
+highlight ColorColumn ctermbg=magenta
+call matchadd('ColorColumn', '\%81v', 100)
+
+""" Remap ; to : for ease of use
+nnoremap ; :
+
 """ SYSTEM CLIPBOARD COPY & PASTE SUPPORT
 set pastetoggle=<F2> "F2 before pasting tp preserve indentation
 "Copy paste to/from clipboard
